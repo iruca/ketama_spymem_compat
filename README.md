@@ -19,9 +19,9 @@ example.com
 ## Description
 
 Some are using Ketama algorithm of Spymemcached library to balance the load to memcached nodes.
-We don't want to use Java or other compiler languages to test memcached's load-balancing function or to just check caches are correctly set, and I believe there is no python library which implements spymemcached-compatible Ketama algorithm.
+We don't want to use Java or other compiler languages to test memcached's load-balancing function or to just check caches are correctly set, and I believe there is no python library which implements spymemcached-compatible Ketama algorithm other than this.
 
-Using this python utility, you can easily check caches from a bunch of memcached nodes.
+Using this python utility, you can easily find caches set by spymemcached from a bunch of memcached nodes....
 
 
 
