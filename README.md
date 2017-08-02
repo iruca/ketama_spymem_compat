@@ -5,8 +5,6 @@ Ketama hash ring implementation compatible with spymemcached
 ## Usage:
 
 ```
-from ketama import KetamaHashRing
-
 >>> from ketama import KetamaHashRing
 >>> ketama_nodes = KetamaHashRing(["example.com", "yahoo.com", "google.com"], 11211)
 >>> print ketama_nodes.get_node_for_key( "cachekey1" )
